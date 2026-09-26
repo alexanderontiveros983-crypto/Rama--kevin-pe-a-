@@ -1,12 +1,12 @@
 # Bitácora Individual de Trabajo
 
-* **Nombre del Alumno:** [Nombre Completo del Alumno]
+* **Nombre del Alumno:** [Kevin Alexander Peña Ontiveros]
 * **Célula:** Célula 5 - Quantum Code
-* **Rol Asignado:** [Líder / UML / Backend / QA / Analista][cite: 4]
+* **Rol Asignado:** Backend
 * **Proyecto:** GroStop (E-Commerce Grocery Store)
 
 * **Actividades Realizadas:**
-  * [Escribe aquí qué hiciste hoy en relación a tu rol][cite: 3, 4]
+  * [Lo primero que hice fue ]
   * [Ejemplo: Cloné el repositorio y configuré mi entorno virtual de Python][cite: 3]
 
 * **Pruebas y Hallazgos en el Sistema:**
