@@ -3,7 +3,7 @@
 * **Nombre del Alumno:** [Kevin Alexander Peña Ontiveros]
 * **Célula:** Célula 5 - Quantum Code
 * **Rol Asignado:** Backend
-* **Proyecto:** GroStop (E-Commerce Grocery Store)
+* **Proyecto:** GroStop (E-Commerce Grocery Stor)
 
 * **Actividades Realizadas:**
   * [Lo primero que hice fue ]
