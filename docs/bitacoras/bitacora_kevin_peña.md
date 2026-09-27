@@ -45,8 +45,29 @@
 
 ---
 
- Reporte de Inicialización y Configuración del Backend📌 Resumen de CambiosSe completó con éxito la configuración y puesta en marcha del entorno de desarrollo local para la aplicación Quantum-Code-Grostop en la rama rama-kevin-backend, resolviendo conflictos de dependencias, políticas de ejecución y compatibilidad con versiones modernas de Python.🛠️ Acciones Realizadas y Soluciones TécnicasConfiguración del Entorno Virtual y PowerShell:Creación y activación del entorno virtual (venv) en Windows.   Ajuste de la directiva de ejecución en PowerShell (Set-ExecutionPolicy RemoteSigned) para permitir la activación correcta del entorno virtual.Resolución de Conflictos de Dependencias (pip & PyYAML):Actualización de herramientas de empaquetado (pip, setuptools, wheel) para asegurar compatibilidad con la versión actual de Python.Solución al error de compilación del paquete heredado PyYAML==5.4.1 migrando a una versión compatible y actualizando el cargador en el archivo de inicialización (market/__init__.py) mediante el parámetro Loader=yaml.FullLoader.Instalación completa y exitosa del stack de dependencias (Flask, Flask-MySQLdb, Flask-SQLAlchemy, Flask-WTF, PyMySQL, mysqlclient, etc.).Conexión con Base de Datos y Arranque del Servidor:Verificación de los servicios de MySQL y Apache mediante XAMPP.Configuración exitosa de las credenciales de conexión en los archivos de la aplicación.Arranque formal del servidor de desarrollo Flask a través de run.py, logrando la ejecución local en [http://127.0.0.1:5000](http://127.0.0.1:5000) y validando las vistas de autenticación (/AdminLogin).
+ # Reporte de Inicialización y Configuración del Backend
 
+## Resumen de Cambios
+Se completó con éxito la configuración y puesta en marcha del entorno de desarrollo local para la aplicación **Quantum-Code-Grostop** en la rama `rama-kevin-backend`, resolviendo conflictos de dependencias, políticas de ejecución y compatibilidad con versiones modernas de Python.
 
+---
+
+##  Acciones Realizadas y Soluciones Técnicas
+
+### 1. Configuración del Entorno Virtual y PowerShell
+* Creación y activación del entorno virtual (`venv`) en Windows.
+* Ajuste de la directiva de ejecución en PowerShell (`Set-ExecutionPolicy RemoteSigned`) para permitir la activación correcta del entorno virtual.
+
+### 2. Resolución de Conflictos de Dependencias (`pip` & `PyYAML`)
+* Actualización de herramientas de empaquetado (`pip`, `setuptools`, `wheel`) para asegurar compatibilidad con la versión actual de Python.
+* Solución al error de compilación del paquete heredado `PyYAML==5.4.1` migrando a una versión compatible y actualizando el cargador en el archivo de inicialización (`market/__init__.py`) mediante el parámetro `Loader=yaml.FullLoader`.
+* Instalación completa y exitosa del stack de dependencias (`Flask`, `Flask-MySQLdb`, `Flask-SQLAlchemy`, `Flask-WTF`, `PyMySQL`, `mysqlclient`, etc.).
+
+### 3. Conexión con Base de Datos y Arranque del Servidor
+* Verificación de los servicios de MySQL y Apache mediante XAMPP.
+* Configuración exitosa de las credenciales de conexión en los archivos de la aplicación.
+* Arranque formal del servidor de desarrollo Flask a través de `run.py`, logrando la ejecución local en `http://127.0.0.1:5000` y validando las vistas de autenticación (`/AdminLogin`).
+
+<img width="1024" height="544" alt="image" src="https://github.com/user-attachments/assets/c5eab2e6-c2e5-49f7-ba4e-300e3a449f88" />
 
 *(Nota: Agrega un nuevo bloque "Registro Diario de Actividades" al final de este archivo por cada día que trabajes en el proyecto)*
