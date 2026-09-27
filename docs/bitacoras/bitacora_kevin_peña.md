@@ -1,9 +1,4 @@
-# Bitácora Individual de Trabajo
 
-* **Nombre del Alumno:** [Kevin Alexander Peña Ontiveros]
-* **Célula:** Célula 5 - Quantum Code
-* **Rol Asignado:** Backend
-* **Proyecto:** GroStop (E-Commerce Grocery Stor)
 
 ### Bitácora Individual de Trabajo
 
