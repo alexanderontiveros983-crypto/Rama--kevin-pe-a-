@@ -45,9 +45,8 @@
 
 ---
 
-#### Dudas o Aspectos por Aclarar:
+ Reporte de Inicialización y Configuración del Backend📌 Resumen de CambiosSe completó con éxito la configuración y puesta en marcha del entorno de desarrollo local para la aplicación Quantum-Code-Grostop en la rama rama-kevin-backend, resolviendo conflictos de dependencias, políticas de ejecución y compatibilidad con versiones modernas de Python.🛠️ Acciones Realizadas y Soluciones TécnicasConfiguración del Entorno Virtual y PowerShell:Creación y activación del entorno virtual (venv) en Windows.   Ajuste de la directiva de ejecución en PowerShell (Set-ExecutionPolicy RemoteSigned) para permitir la activación correcta del entorno virtual.Resolución de Conflictos de Dependencias (pip & PyYAML):Actualización de herramientas de empaquetado (pip, setuptools, wheel) para asegurar compatibilidad con la versión actual de Python.Solución al error de compilación del paquete heredado PyYAML==5.4.1 migrando a una versión compatible y actualizando el cargador en el archivo de inicialización (market/__init__.py) mediante el parámetro Loader=yaml.FullLoader.Instalación completa y exitosa del stack de dependencias (Flask, Flask-MySQLdb, Flask-SQLAlchemy, Flask-WTF, PyMySQL, mysqlclient, etc.).Conexión con Base de Datos y Arranque del Servidor:Verificación de los servicios de MySQL y Apache mediante XAMPP.Configuración exitosa de las credenciales de conexión en los archivos de la aplicación.Arranque formal del servidor de desarrollo Flask a través de run.py, logrando la ejecución local en [http://127.0.0.1:5000](http://127.0.0.1:5000) y validando las vistas de autenticación (/AdminLogin).
 
-* Validar en el próximo checkpoint con el equipo de frontend y los demás integrantes de la célula si los nombres de las tablas y los campos de las llaves foráneas coinciden exactamente con los modelos definidos en el código del servidor para evitar fallos de mapeo al momento de realizar las peticiones HTTP y consultas CRUD.
-* Confirmar si se realizarán inserciones masivas adicionales de datos de prueba o si trabajaremos directamente sobre los registros actuales para las pruebas funcionales de la plataforma GroStop.
+
 
 *(Nota: Agrega un nuevo bloque "Registro Diario de Actividades" al final de este archivo por cada día que trabajes en el proyecto)*
