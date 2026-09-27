@@ -21,6 +21,12 @@
 * **Importación y Mapeo de Tablas de E-Commerce:** Gestioné la importación masiva del archivo de respaldo SQL, logrando estructurar e inicializar todas las entidades relacionales del sistema, tales como: `admin`, `customer`, `product`, `orders`, `cart`, `category`, `delivery_boy`, `offer`, `product_feedback`, `rates_order_delivery`, `selects`, `seller`, `sells`, y tablas asociativas como `associated_with`, además de vistas y registros de prueba estructurados.   
 
 ---
+<img width="512" height="272" alt="image" src="https://github.com/user-attachments/assets/cb547d1d-e503-48ea-8d56-a9a7eff4cd13" />
+
+
+
+
+
 
 #### Pruebas y Hallazgos en el Sistema:
 
